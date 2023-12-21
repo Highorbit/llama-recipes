@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__
 .ipynb_checkpoints
+examples/custom_data/
+examples/tmp
+env/
