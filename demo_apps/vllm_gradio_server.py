@@ -20,20 +20,19 @@ def http_bot(prompt):
     # response = response.replace(prompt,'')
 
 
-    for chunk in response.iter_lines(chunk_size=8192,decode_unicode=False,delimiter=b"\0"):
-        if chunk:
-            data = json.loads(chunk.decode("utf-8"))
-            output = data['text'][0].replace(prompt,'')
-            yield output
-
-    # for chunk in response.iter_lines(chunk_size=8192,
-    #                                  decode_unicode=False,
-    #                                  delimiter=b"\0"):
+    # for chunk in response.iter_lines(chunk_size=8192,decode_unicode=False,delimiter=b"\0"):
     #     if chunk:
     #         data = json.loads(chunk.decode("utf-8"))
-    #         output = data["text"][0].replace(prompt, '')
-    #         output
+    #         output = data['text'][0].replace(prompt,'')
     #         yield output
+
+    for chunk in response.iter_lines(chunk_size=8192,
+                                     decode_unicode=False,
+                                     delimiter=b"\0"):
+        if chunk:
+            data = json.loads(chunk.decode("utf-8"))
+            output = data["text"][0].replace(prompt, '')
+            yield output
 
 
 def build_demo():
