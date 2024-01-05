@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from tqdm import tqdm
 import requests
 import re
  
@@ -40,7 +39,7 @@ def fetch_data_es(user_id_list):
 
     res = []
 
-    for uid in tqdm(user_id_list):
+    for uid in user_id_list:
 
 
         payload = {
@@ -80,7 +79,7 @@ def construct_user_data_search_embed(user_json):
         'education_info':[]    
     }
 
-    for s in tqdm(user_json):
+    for s in user_json:
 
         try:
             source = s[0]
