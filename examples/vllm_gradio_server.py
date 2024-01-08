@@ -1,28 +1,53 @@
+from vllm import LLM, SamplingParams
+import numpy as np 
+import pandas as pd 
+import json 
 import gradio as gr
-import html
-import ast
 from user_info import get_user_info
-import requests
+import ast, html, re
+
+
+sampling_params = SamplingParams(temperature=0, max_tokens=4096)
+llm = LLM(model="lakshay/work-model")
+
+eval_df = pd.read_csv('custom_data/iimjobs_eval_df.csv')
+
+def convert_to_json(input_string):
+    # Replace single quotes at the start and end of keys and values with double quotes
+    # This regex specifically targets the start of keys/values and the end of keys/values
+    corrected_string = re.sub(r"(\{|\,)\s*\'", r'\1 "', input_string)  # Start of key/value
+    corrected_string = re.sub(r"\'\s*(\,|\})", r'" \1', corrected_string)  # End of key/value
+    corrected_string = re.sub(r"\'\s*:", r'":', corrected_string)  # Key end
+    corrected_string = re.sub(r":\s*\'", r': "', corrected_string)  # Value start
+
+    try:
+        # Convert the string to a valid JSON
+        valid_json = json.loads(corrected_string)
+        print(f'it worked!')
+        return valid_json
+    except json.JSONDecodeError as e:
+        print(f'Error thrown in JSON converter is {e}')
+        return input_string
 
 def make_eval_prompt(raw_text):
     
-    work_format = '''{
-        'work_experience': [{'company': 'company Name 1',
-                             'role': 'job designation 1',
-                             'start_date': 'mm/yyyy',
-                             'end_date': 'mm/yyyy',
-                             'description': 'complete Job description taken from resume'},
-                            {'company': 'company name 2',
-                             'role': 'job designation 2',
-                             'start_date': mm/yyyy',
-                             'end_date': 'mm/yyyy',
-                             'description': 'complete Job description taken from resume'}]
-    }'''
+    work_format = '''
+        [{"company": "company Name 1",
+        "role": "job designation 1",
+        "start_date": "mm/yyyy",
+        "end_date": "mm/yyyy",
+        "description": "complete Job description taken from resume"},
+        {"company": "company name 2",
+        "role": "job designation 2",
+        "start_date": "mm/yyyy",
+        "end_date": "mm/yyyy",
+        "description": "complete Job description taken from resume"}]'''
     
     eval_prompt = f'''
     You are a helpful language model working for a job platform. You will be given the raw 
      unstructured text of a user's resume, and the task is to extract the work experience of the 
-     user from the raw text in the following format: \n{{work_format}}\n
+     user from the raw text in the following format as a properly formatted JSON which can be
+     properly parsed. ONLY use double quotes while generating the output JSON : \n{{work_format}}\n.
     
      This is the resume text:\n{{resume_text}}\n
      This is the output in the required format:\n
@@ -34,64 +59,56 @@ def make_eval_prompt(raw_text):
 
     return eval_prompt
 
-def http_bot(prompt):
-    headers = {"User-Agent": "vLLM Client"}
-    pload = {
-        "prompt": prompt,
-        "stream": False,
-        "max_tokens": 2048,
-    }
-    response = requests.post('http://localhost:5000/generate',
-                             headers=headers,
-                             json=pload,
-                             stream=False)
-    
-    out_text = response.json()['text']
-
-    
-    generated_string = out_text[0].split('This is the output in the required format:')[1]
-    go = html.unescape(generated_string)
-
-    generated_output = html.unescape(go)
-    generated_output = generated_output.replace('\n','')
-    generated_output = generated_output.strip()
-    
+def parse_user_work_ex(info_json):
+    work_ex = []
     try:
-        out_json = ast.literal_eval(generated_output)
-        return out_json,2
+        for x in info_json['professional_info'][0]:
+            
+            user_dict = {}
+            exp_dict = x
+        
+            keys = ['id','designation','fromExpMonth','fromExpYear','toExpMonth','toExpYear'] 
+        
+            for k in keys:
+                user_dict[k] = exp_dict[k]
+                
+            user_dict['company'] = exp_dict['organization']['name']
+            work_ex.append(user_dict)
     except:
-        print('couldnt JSONify generated Text (ast.literal_eval)')
-        return generated_output, 1
- 
-    cs = []
-    # for chunk in response.iter_lines(chunk_size=8192,decode_unicode=False,delimiter=b"\0"):
-    #     if chunk:
-    #         data = json.loads(chunk.decode("utf-8"))
-    #         cs.append(data['text'][0].replace(eval_prompt,''))
+        return work_ex
+            
+    return work_ex
 
-    # json_str = ''.join(cs)
-    # return json_str
 
 
 def get_response_from_model(user_id):
 
     es_output = get_user_info(user_id)
     resume_text = es_output['resume'][0]
+    work_ex = parse_user_work_ex(es_output)
     if resume_text:
         eval_prompt = make_eval_prompt(resume_text)
     
-    response, error_code = http_bot(eval_prompt)
+    outputs = llm.generate(eval_prompt, sampling_params)
+    out_text = outputs[0].outputs[0].text
+    ot = html.unescape(out_text)
+    generated_text = ot
+    
     try:
-        # return json.dumps(response,indent=4)
-        return pd.DataFrame(response)
-    except:
-        print('couldnt make a dataframe')
-        return response
+        out_json = ast.literal_eval(generated_text)
+        return json.dumps(out_json,indent=4), json.dumps(work_ex,indent=4)
+
+    except Exception as e:
+        print(f'couldnt JSONify this {e}')
+        gt = convert_to_json(generated_text)
+        return json.dumps(gt, indent=4), json.dumps(work_ex,indent=4)
+
 
 demo = gr.Interface(
     fn=get_response_from_model,
-    inputs=["text"],
-    outputs=["dataframe"],
+    inputs=[gr.Textbox(label="UserID")],
+    outputs=[gr.Textbox(label="LLM Output"),gr.Textbox(label="User Info from ElasticSearch")],
+    allow_flagging="manual"
 )
 
 demo.launch(share=True)

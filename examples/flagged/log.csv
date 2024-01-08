@@ -1,0 +1,22 @@
+UserID,LLM Output,User Info from ElasticSearch,flag,username,timestamp
+1868837," [{'company': 'Aditi Tech Consulting Pvt Ltd.', 'role': 'Specialist - People and Culture', 'start_date': 'June 22, 2023', 'end_date': 'Aug 23, 2023', 'description': 'In my previous role, I was a part of the People Department Team (HR), where my responsibilities centered around the entire employee life cycle, from onboarding to offboarding. During this role, I managed new hire orientation sessions, ensured compliance with statutory regulations through document handling, served as the Single Point of Contact (SPOC) for insurance-related matters, addressed HRMS queries encompassing attendance, leave, payroll, and expenses, handled employee grievances, facilitated new hire integration sessions, and conducted daily pulse checks to monitor and proactively address attrition concerns.'}, {'company': 'Health Vista India Pvt Ltd', 'role': 'Talent Acquisition Executive', 'start_date': 'March 22, 2022', 'end_date': 'June 22, 2022', 'description': 'I was responsible for managing sales and corporate hiring, which included B2B, B2C, dealer sales, and senior-level positions.'}, {'company': 'Dropkaffe Food and Beverages Pvt Ltd., Bangalore, Karnataka', 'role': 'Human Resource Executive: Brand SLAY COFFEE', 'start_date': 'Jan 20, 2022', 'end_date': 'Feb 22, 2022', 'description': 'As a member of the corporate team, I worked within a company with a workforce exceeding 350 employees spread across 14 different cities in India, with ongoing growth. I closely collaborated with the company's co-founders, actively contributing to the drafting and implementation of new policies and the development of various strategies aimed at achieving more target-oriented results.'}, {'company': 'Dropkaffe Food and Beverages Pvt Ltd., Bangalore, Karnataka', 'role': 'Human Resource Intern: Brand SLAY COFFEE', 'start_date': 'Oct 19, 2021', 'end_date': 'Dec 19, 2021', 'description': 'Worked on all levels of Recruitment and Hiring for Corporate as well as Unit Teams. Maintenance of attendance and leaves for all the employees, conducting inductions, and all exit formalities for an employee.'}, {'company': 'Lemon Tree Premier, Aerocity, New Delhi', 'role': 'Human Resource Intern: Lemon Tree Premier', 'start_date': 'June 18, 2021', 'end_date': 'Aug 18, 2021', 'description': 'Worked on my Academic Internship whilst pursuing my Post Graduation, roles and responsibilities included - Employee and Trainee joining formalities, Maintaining Employee details in database, Handling employee queries, and Compliance check. Maintaining employee leave records, Town Hall preparations, etc.'}, {'company': 'Concentrix India Pvt.Ltd, Gurgaon, Haryana', 'role': 'Customer Relations Executive, Client: Amazon.in and Amazon.UK', 'start_date': 'Dec 16, 2016', 'end_date': 'May 17, 2017', 'description': 'Was part of a CRM team for Amazon and was responsible for handling the customers of India and later the United Kingdom. The work was basically related to customer grievance handling and providing them support on their quarries.'}]
+","'[
+    {
+        ""id"": 2786866,
+        ""designation"": ""Specialist - People and Culture"",
+        ""fromExpMonth"": ""6"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Aditi Tech Consulting Pvt Ltd""
+    },
+    {
+        ""id"": 4062764,
+        ""designation"": ""HR Executive"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2019"",
+        ""toExpMonth"": ""2"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""Slay Coffee""
+    }
+]",,,2024-01-08 16:50:32.937541
