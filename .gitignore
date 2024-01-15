@@ -4,3 +4,4 @@ __pycache__
 examples/custom_data/
 examples/tmp
 env/
+examples/configs/
