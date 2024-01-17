@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import requests
 import re
- 
 def clean_space(text):
     return " ".join(re.split("\s+", text, flags=re.UNICODE))
 
@@ -72,7 +71,6 @@ def construct_user_data_search_embed(user_json):
     
     user_dict = {
         'id' : [],
-        'keywords':[],
         'resume' : [],
         'current_designation' : [],
         'user_experience':[],
