@@ -5,4 +5,5 @@ examples/custom_data/
 examples/tmp
 env/
 examples/configs/
-examples/code_langchain/vectorstore
+
+examples/code_langchain/vectorstore/
