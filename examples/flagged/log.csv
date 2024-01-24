@@ -20,3 +20,340 @@ UserID,LLM Output,User Info from ElasticSearch,flag,username,timestamp
         ""company"": ""Slay Coffee""
     }
 ]",,,2024-01-08 16:50:32.937541
+1447358,"'[
+    {
+        ""company"": ""BANK OF BARODA"",
+        ""designation"": ""Customer Review Analytics"",
+        ""start_date"": ""MAR-2023"",
+        ""end_date"": ""PRESENT""
+    }
+]","'[
+    {
+        ""id"": 2189007,
+        ""designation"": ""AVP Data Scientist"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2023"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Bank of Baroda""
+    },
+    {
+        ""id"": 4208239,
+        ""designation"": ""Data Scientist"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""ujjivan financial services pvt Ltd""
+    },
+    {
+        ""id"": 4208240,
+        ""designation"": ""Systems Engineer"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2013"",
+        ""toExpMonth"": ""5"",
+        ""toExpYear"": ""2016"",
+        ""company"": ""Tata Consultancy Services""
+    }
+]",,,2024-01-24 11:43:15.152754
+541353,""" [        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '01/2022', 'end_date': '06/2023'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2023', 'end_date': '06/2024'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2024', 'end_date': '06/2025'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2025', 'end_date': '06/2026'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2026', 'end_date': '06/2027'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2027', 'end_date': '06/2028'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2028', 'end_date': '06/2029'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2029', 'end_date': '06/2030'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2030', 'end_date': '06/2031'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2031', 'end_date': '06/2032'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2032', 'end_date': '06/2033'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2033', 'end_date': '06/2034'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2034', 'end_date': '06/2035'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2035', 'end_date': '06/2036'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2036', 'end_date': '06/2037'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2037', 'end_date': '06/2038'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2038', 'end_date': '06/2039'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2039', 'end_date': '06/2040'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2040', 'end_date': '06/2041'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2041', 'end_date': '06/2042'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2042', 'end_date': '06/2043'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2043', 'end_date': '06/2044'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2044', 'end_date': '06/2045'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2045', 'end_date': '06/2046'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2046', 'end_date': '06/2047'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2047', 'end_date': '06/2048'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2048', 'end_date': '06/2049'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2049', 'end_date': '06/2050'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2050', 'end_date': '06/2051'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2051', 'end_date': '06/2052'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2052', 'end_date': '06/2053'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2053', 'end_date': '06/2054'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2054', 'end_date': '06/2055'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2055', 'end_date': '06/2056'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2056', 'end_date': '06/2057'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2057', 'end_date': '06/2058'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2058', 'end_date': '06/2059'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2059', 'end_date': '06/2060'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2060', 'end_date': '06/2061'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2061', 'end_date': '06/2062'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2062', 'end_date': '06/2063'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2063', 'end_date': '06/2064'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2064', 'end_date': '06/2065'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2065', 'end_date': '06/2066'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2066', 'end_date': '06/2067'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2067', 'end_date': '06/2068'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2068', 'end_date': '06/2069'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2069', 'end_date': '06/2070'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2070', 'end_date': '06/2071'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2071', 'end_date': '06/2072'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2072', 'end_date': '06/2073'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2073', 'end_date': '06/2074'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2074', 'end_date': '06/2075'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2075', 'end_date': '06/2076'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2076', 'end_date': '06/2077'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2077', 'end_date': '06/2078'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2078', 'end_date': '06/2079'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2079', 'end_date': '06/2080'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2080', 'end_date': '06/2081'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2081', 'end_date': '06/2082'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2082', 'end_date': '06/2083'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2083', 'end_date': '06/2084'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2084', 'end_date': '06/2085'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2085', 'end_date': '06/2086'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2086', 'end_date': '06/2087'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2087', 'end_date': '06/2088'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2088', 'end_date': '06/2089'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2089', 'end_date': '06/2090'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2090', 'end_date': '06/2091'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2091', 'end_date': '06/2092'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2092', 'end_date': '06/2093'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2093', 'end_date': '06/2094'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2094', 'end_date': '06/2095'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2095', 'end_date': '06/2096'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2096', 'end_date': '06/2097'},        {'company': 'Spectrum', 'designation': 'Software Engineer', 'start_date': '06/2097', 'end_date': '06/2098'},        {'company': 'Spectrum', 'designation': 'Software Engineer',""","'[
+    {
+        ""id"": 4182345,
+        ""designation"": ""manager"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2018"",
+        ""company"": ""Infosys""
+    },
+    {
+        ""id"": 4182346,
+        ""designation"": ""manager"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""RAPIDO""
+    },
+    {
+        ""id"": 4182519,
+        ""designation"": ""ylogv"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2014"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2015"",
+        ""company"": ""Amazon.com""
+    },
+    {
+        ""id"": 4182344,
+        ""designation"": ""manager"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2014"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2016"",
+        ""company"": ""20:20 MSL""
+    },
+    {
+        ""id"": 4182343,
+        ""designation"": ""manager"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2011"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Microsoft""
+    }
+]",,,2024-01-24 12:26:40.024140
+560988,""" RAHUL JAUHARI nobody 2023 nobody 2022 nobody 2021 nobody 2020 nobody 2019 nobody 2018 nobody 2017 nobody 2016 nobody 2015 nobody 2014 nobody 2013 nobody 2012 nobody 2011 nobody 2010 nobody 2009 nobody 2008 nobody 2007 nobody 2006 nobody 2005 nobody 2004 nobody 2003 nobody 2002 nobody 2001 nobody 2000 nobody 1999 nobody 1998 nobody 1997 nobody 1996 nobody 1995 nobody 1994 nobody 1993 nobody 1992 nobody 1991 nobody 1990 nobody 1989 nobody 1988 nobody 1987 nobody 1986 nobody 1985 nobody 1984 nobody 1983 nobody 1982 nobody 1981 nobody 1""","'[
+    {
+        ""id"": 556275,
+        ""designation"": ""Administration Officer"",
+        ""fromExpMonth"": ""6"",
+        ""fromExpYear"": ""2023"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Council on Energy Environment and Water""
+    },
+    {
+        ""id"": 2625501,
+        ""designation"": ""Assistant Manager Administration"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2023"",
+        ""toExpMonth"": ""6"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Bharat Financial Inclusion Limited""
+    },
+    {
+        ""id"": 4208418,
+        ""designation"": ""Assistant Manager Administration"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2019"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Mercados Energy Markets India Pvt Ltd.""
+    },
+    {
+        ""id"": 4232872,
+        ""designation"": ""Deputy Manager in Information Technology & Administration, Infrastructure and Operation"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2014"",
+        ""toExpMonth"": ""10"",
+        ""toExpYear"": ""2019"",
+        ""company"": ""Progressive Cooperative Credit Society Ltd""
+    }
+]",,,2024-01-24 13:06:59.857854
+598095,""" [{'company': 'J P Morgan and Chase', 'role': 'Agility Lead, Cloud Champion and Program Manager for the Post Trade Technology line of Business', 'start_date': 'Sep 2021', 'end_date': 'Till Date'}, {'company': 'Shell India Markets Private Limited', 'role': 'Project Manager and Subject Matter Expert in the Downstream Trading and Supply line of business at Shell', 'start_date': 'Jul 2018', 'end_date': 'Sep 2021'}, {'company': 'Capgemini India', 'role': 'Head of Project Management Ofce for the Mainframe Tower supporting multiple customers', 'start_date': 'Feb 2016', 'end_date': 'Jul 2018'}, {'company': 'CSC INDIA Private Limited', 'role': 'Senior Software Engineer  CSC proprietary product development for General Insurance industry of America', 'start_date': 'Aug 2002', 'end_date': 'Feb 2007'}, {'company': 'CMA CGM', 'role': 'Led the development of a data platform in the Shell Compliance segment enabling the business to have real time dashboard on key matrices for the Know Your Counterparty process.', 'start_date': 'Led the implementation of MetricStream, a cloud based Governance Risk and Compliance platform to enable the Shell Trading Compliance business manage and have an end to end view of their Risks, Controls, Regulatory Changes and Policies.', 'start_date': 'Led the development of a web-based application for CMA CGM, to optimize the management and placement of Cargo onboard a vessel.', 'start_date': 'Led the development of a kiosk-based application for Allied System Holdings to enable the driver to self-assign the shipment and check-in after delivery to eliminate the presence of Operations team at the terminals and have a faster turnaround.', 'start_date': 'Delivered key compliance and technology resiliency projects in a constrained time period and budget. Demonstrated year on year productivity improvement and savings by implementing process improvements, resource optimization, improved documentation, lean principles and automation.', 'start_date': 'Participated in solution design and estimation for RFQs and RFPs and developed SOWs with the cost case for new projects and opportunities for organic Account growth.', 'start_date': 'Handled Process and Project Management reviews/audits like ISO and KCO Audits, CMMI Reassessment and Quality control activities and participated in Steering Committees and Decision Review Boards.', 'start_date': 'Participated in contractual Steering Committee meetings and Service delivery reporting for the entire account (peak strength of 150 FTE) and managed escalations related to Delivery, Resources and Processes.', 'start_date': 'Participated on Contract creation/renewal negotiating on labor/non-labor costs and scope.', 'start_date': 'Mentored direct reports to progress to next career level. Handled goal setting, performance evaluation and formulated performance improvement plans where course correction was required.', 'start_date': 'Participated in Team Based Decision making with peer and up-line managers to justify the performance rating of direct reports using factual evidences to perform relative comparison with other resources across different accounts in the Service line.', 'start_date': 'Awarded appropriate recognition to team members using all channels within the Rewards & Recognition policy framework.', 'start_date': 'Timely escalation to up-line manager and HR Partners for sensitive cases.', 'start_date': 'Contributed towards development of a Knowledge Management Framework to track and improve skill levels in the team through structured training plans and improved documentation to reduce the impact of employee turnover.', 'start_date': '2016 - 2017', 'end_date': '2016 - 2017'} Unterscheidung zwischen \""Year\"" und \""Years\""This is the corrected output:     [{'company': 'J P Morgan and Chase', 'role': 'Agility Lead, Cloud Champion and Program Manager for the Post Trade Technology line of Business', 'start_date': 'Sep 2021', 'end_date': 'Till Date'}, {'company': 'Shell India Markets Private Limited', 'role': 'Project Manager and Subject Matter Expert in the Downstream Trading and Supply line of business at Shell', 'start_date': 'Jul 2018', 'end_date': 'Sep 2021'}, {'company': 'Capgemini India', 'role': 'Head of Project Management Ofce for the Mainframe Tower supporting multiple customers', 'start_date': 'Feb 2016', 'end_date': 'Jul 2018'}, {'company': 'CSC INDIA Private Limited', 'role': 'Senior Software Engineer  CSC proprietary product development for General Insurance industry of America', 'start_date': 'Aug 2002', 'end_date': 'Feb 2007'}, {'company': 'CMA CGM', 'role': 'Led the development of a data platform in the Shell Compliance segment enabling the business to have real time dashboard on key matrices for the Know Your Counterparty process.', 'start_date': 'Led the implementation of MetricStream, a cloud based Governance Risk and Compliance platform to enable the Shell Trading Compliance business manage and have an end to end view of their Risks, Controls, Regulatory Changes and Policies.', 'start_date': 'Led the development of a web-based application for CMA CGM, to optimize the management and placement of Cargo onboard a vessel.', 'start_date': 'Led the development of a kiosk-based application for Allied System Holdings to enable the driver to self-assign the shipment and check-in after delivery to eliminate the presence of Operations team at the terminals and have a faster turnaround.', 'start_date': 'Delivered key compliance and technology resiliency projects in a constrained time period and budget. Demonstrated year on year productivity improvement and savings by implementing process improvements, resource optimization, improved documentation, lean principles and automation.', 'start_date': 'Participated in solution design and estimation for RFQs and RFPs and developed SOWs with the cost case for new projects and opportunities for organic Account growth.', 'start_date': 'Handled Process and Project Management reviews/audits like ISO and KCO Audits, CMMI Reassessment and Quality control activities and participated in Steering Committees and Decision Review""","'[
+    {
+        ""id"": 622692,
+        ""designation"": ""Vice President"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2021"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""JP Morgan""
+    },
+    {
+        ""id"": 847187,
+        ""designation"": ""Project Manager"",
+        ""fromExpMonth"": ""7"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""9"",
+        ""toExpYear"": ""2021"",
+        ""company"": ""Shell India Markets Private Limited""
+    },
+    {
+        ""id"": 847188,
+        ""designation"": ""Manager"",
+        ""fromExpMonth"": ""2"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""7"",
+        ""toExpYear"": ""2018"",
+        ""company"": ""Capgemini""
+    },
+    {
+        ""id"": 4208424,
+        ""designation"": ""Application Delivery Manager"",
+        ""fromExpMonth"": ""2"",
+        ""fromExpYear"": ""2007"",
+        ""toExpMonth"": ""2"",
+        ""toExpYear"": ""2016"",
+        ""company"": ""IBM""
+    },
+    {
+        ""id"": 4208425,
+        ""designation"": ""Senior Software Engineer"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2002"",
+        ""toExpMonth"": ""2"",
+        ""toExpYear"": ""2007"",
+        ""company"": ""CSC""
+    }
+]",,,2024-01-24 13:16:22.486511
+1455844,"'[
+    {
+        ""company"": ""Moustache Hospitality Pvt Ltd."",
+        ""role"": ""Revenue Manager"",
+        ""start_date"": ""Jan 2022"",
+        ""end_date"": ""Current""
+    }
+]","'[
+    {
+        ""id"": 3884695,
+        ""designation"": ""Revenue Manager"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Mouctache Hostels""
+    },
+    {
+        ""id"": 2417626,
+        ""designation"": ""Revenue Manager"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2019"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2021"",
+        ""company"": ""Gostops Hospitality""
+    },
+    {
+        ""id"": 2089047,
+        ""designation"": ""Cluster Reservation Manager"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""6"",
+        ""toExpYear"": ""2019"",
+        ""company"": ""Internet Moguls""
+    },
+    {
+        ""id"": 3884697,
+        ""designation"": ""Reservation Manager"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2012"",
+        ""toExpMonth"": ""1"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""Emaar Hospitality""
+    }
+]",,,2024-01-24 13:53:05.760920
+1625974,"'[
+    {
+        ""company"": ""Relevel by Unacademy"",
+        ""role"": ""Category Manager"",
+        ""start_date"": ""March 2022"",
+        ""end_date"": ""Present""
+    },
+    {
+        ""company"": ""BitClass"",
+        ""role"": ""Category Manager"",
+        ""start_date"": ""Jan 2021"",
+        ""end_date"": ""March 2022""
+    },
+    {
+        ""company"": ""SimpliLearn"",
+        ""role"": ""Senior Account Manager"",
+        ""start_date"": ""Dec 2019"",
+        ""end_date"": ""Jan 2021""
+    }
+]","'[
+    {
+        ""id"": 2355335,
+        ""designation"": ""Program Manager"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""4"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Relevel by Unacademy""
+    }
+]",,,2024-01-24 15:17:10.184433
+399034,"""""","'[
+    {
+        ""id"": 3826737,
+        ""designation"": ""Manager -Projects"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Save the Children""
+    },
+    {
+        ""id"": 3670604,
+        ""designation"": ""Assistant Program Lead"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""10"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""S M Sehgal Foundation""
+    },
+    {
+        ""id"": 2504972,
+        ""designation"": ""Project Manager-Uttar Pradesh"",
+        ""fromExpMonth"": ""7"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""ICICI Foundation for Inclusive Growth""
+    },
+    {
+        ""id"": 1630136,
+        ""designation"": ""Team Leader"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""7"",
+        ""toExpYear"": ""2018"",
+        ""company"": ""SRIJAN -Self Reliant Initiatives Through Joint Action""
+    },
+    {
+        ""id"": 278342,
+        ""designation"": ""Assistant Project Manager"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2012"",
+        ""toExpMonth"": ""4"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""Reliance Foundation""
+    },
+    {
+        ""id"": 278343,
+        ""designation"": ""District Coordinator"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2011"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2012"",
+        ""company"": ""UNICEF""
+    },
+    {
+        ""id"": 278344,
+        ""designation"": ""Deputy Programme Officer"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2007"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2011"",
+        ""company"": ""UttraKhand Rural Development Depart.Hardwar""
+    }
+]",,,2024-01-24 15:25:35.243862
+1660149,""" [{'company': 'House of Ankit', 'designation': 'Amazon Account Manager', 'start_date': 'Oct'20', 'end_date': 'Nov'21}, {'company': 'BYJU'S', 'designation': 'Program Manager - Strategy & Planning', 'start_date': 'Nov'21', 'end_date': 'Nov'22}, {'company': 'BYJU'S', 'designation': 'Management Trainee - Strategy & Planning', 'start_date': 'Nov'21', 'end_date': 'Nov'22}, {'company': 'PUMA India', 'designation': 'Assistant Manager - Retention & CRM Tools', 'start_date': 'Nov'22', 'end_date': 'Present'}]""","'[
+    {
+        ""id"": 2895401,
+        ""designation"": ""Assistant Manager - Retention & CRM Tools"",
+        ""fromExpMonth"": ""11"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Puma""
+    },
+    {
+        ""id"": 3301467,
+        ""designation"": ""Program Manager"",
+        ""fromExpMonth"": ""11"",
+        ""fromExpYear"": ""2021"",
+        ""toExpMonth"": ""11"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""BYJU'S""
+    },
+    {
+        ""id"": 3757688,
+        ""designation"": ""Amazon Account Manager"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2020"",
+        ""toExpMonth"": ""11"",
+        ""toExpYear"": ""2021"",
+        ""company"": ""House of Ankit""
+    }
+]",,,2024-01-24 16:58:33.514242

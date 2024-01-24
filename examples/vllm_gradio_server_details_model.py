@@ -19,6 +19,7 @@ def convert_to_json(input_string):
     corrected_string = re.sub(r"\'\s*(\,|\})", r'" \1', corrected_string)  # End of key/value
     corrected_string = re.sub(r"\'\s*:", r'":', corrected_string)  # Key end
     corrected_string = re.sub(r":\s*\'", r': "', corrected_string)  # Value start
+    corrected_string = corrected_string.replace('\n','')
 
     try:
         # Convert the string to a valid JSON
@@ -44,7 +45,7 @@ def make_eval_prompt(raw_text):
     '''
     
     
-    eval_prompt = eval_prompt.format(resume_text=raw_text)
+    eval_prompt = work_prompt.format(resume_text=raw_text)
 
     return eval_prompt
 
@@ -82,6 +83,7 @@ def get_response_from_model(user_id):
     out_text = outputs[0].outputs[0].text
     ot = html.unescape(out_text)
     generated_text = ot
+    generated_text = generated_text.replace('\n','')
     
     try:
         out_json = ast.literal_eval(generated_text)
