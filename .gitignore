@@ -5,5 +5,8 @@ examples/custom_data/
 examples/tmp
 env/
 examples/configs/
+*.csv
+*.pkl
+*.json
 
 examples/code_langchain/vectorstore/
