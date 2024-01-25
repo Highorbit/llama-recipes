@@ -357,3 +357,661 @@ UserID,LLM Output,User Info from ElasticSearch,flag,username,timestamp
         ""company"": ""House of Ankit""
     }
 ]",,,2024-01-24 16:58:33.514242
+442828,"'[
+    {
+        ""company"": ""Cargill India (P) Ltd"",
+        ""role"": ""Regional Sales Manager  North (Delhi, W-U.P, Haryana, Punjab, Raj, J&K, HP)"",
+        ""start_date"": ""Dec 2017"",
+        ""end_date"": ""Till Date""
+    }
+]","'[
+    {
+        ""id"": 353562,
+        ""designation"": ""Zonal Business Head"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2013"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Borges India Pvt Ltd""
+    }
+]",,,2024-01-25 16:47:11.231674
+2316307,""" Unterscheidung: 1 Unterscheidung: 2 Unterscheidung: 3 Unterscheidung: 4 Unterscheidung: 5 Unterscheidung: 6 Unterscheidung: 7 Unterscheidung: 8 Unterscheidung: 9 Unterscheidung: 10 Unterscheidung: 11 Unterscheidung: 12 Unterscheidung: 13 nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody nobody""","'[
+    {
+        ""id"": 3475976,
+        ""designation"": ""Location Head Finance Pune"",
+        ""fromExpMonth"": ""2"",
+        ""fromExpYear"": ""2008"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Syntel Private Limited""
+    }
+]",,,2024-01-25 16:54:02.186639
+941147,""" [{'company': 'Batlivala & Karani Securities', 'role': 'Sell Side Front end role and covering Indian Information Technology (IT) sector, with all large cap companies under coverage as well as mid and small cap companies. Building end to end financial models, initiating coverage on new companies, writing thematic and earnings report. Also tracking Global IT/Tech sector (companies such ACN, SAP, IBM & other Security & Cloud companies too) to track the demand/ partnership of Indian IT companies. Also track the tech spending of US companies present in BFSI, Hi-Tech, Retail and Healthcare companies to track the demand for Indian IT companies. Solving client queries. Attending live earnings, key speakers and Management calls etc. and generating reports on same. Assisting in preparation and maintenance of various databases which are used to track specific companies/sectors. Keeping a tab on Developments on Companies (M&A, New Deals etc.) in the coverage, economic activities and looking for new opportunities in the Space. Assisting in various ad hoc tasks, including, peer review, preparation of comp sheets for better valuation and comparison and other projects. Timely update on Investor Presentations, Analyst calls, Sectoral and industrial updates on companies underuniverse and preparing notes based on above databases.', 'Mar 22', 'Present'}, {'company': 'CRISIL Ltd.', 'role': 'Supported an US based Hedge fund which has coverage on TMT (Gaming, Social Media,E-commerce and Payments Companies). Have made end to model on various US tech sector companies including Security and Cloud etc. Reading transcripts and preparing key notes on same. Responsible for building and maintaining financial models which are used to arrive at valuation based on proprietary valuation criteria (RV, DCF). Revamping and building, preparing notes on IPOs and models. Preparing power-point presentations o n companies analyzed. Detailed analysis of company financials, broker reports,initiating coverage reports, analyzing past performance, industry data, key ratios, share pricehistory,valuation using ratios, multiples and DCF.', 'Aug 18', 'Mar 22'}, {'company': 'Persistence Market Research', 'role': 'Independently completed various market research reports in the Automotive, Chemical, and Oil & Gas to name a few. Have conducted SWOT Analysis, forecasting and analyzed market dynamics and factors affecting market growth etc. Provided consultation to clients about key bus iness areas, entering markets, costs incurred and advised them on howto set up new products', 'May 17', 'Aug 18'}]""","'[
+    {
+        ""id"": 1213525,
+        ""designation"": ""Research Analyst - IT Sector"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""B&K Securities""
+    },
+    {
+        ""id"": 3232691,
+        ""designation"": ""Research Analyst"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""CRISIL""
+    },
+    {
+        ""id"": 3616834,
+        ""designation"": ""Associate Consultant Level 1"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2018"",
+        ""company"": ""Persistence Market Research""
+    }
+]",,,2024-01-25 17:02:40.009051
+1383282,"'[
+    {
+        ""company"": ""Lixil India"",
+        ""designation"": ""Lead-Talent Acquisition India, LWT APAC"",
+        ""start_date"": ""NOV 2022"",
+        ""end_date"": ""TILL DATE""
+    },
+    {
+        ""company"": ""Religare Broking Ltd."",
+        ""designation"": ""Associate Vice President-HR"",
+        ""start_date"": ""NOV 2016"",
+        ""end_date"": ""NOV 2022""
+    },
+    {
+        ""company"": ""NIIT Ltd."",
+        ""designation"": ""Manager-Talent Acquisition"",
+        ""start_date"": ""MAR 2015"",
+        ""end_date"": ""MAR 2016""
+    },
+    {
+        ""company"": ""Cairn India Ltd."",
+        ""designation"": ""Sr. Recruiter"",
+        ""start_date"": ""MAR 2013"",
+        ""end_date"": ""MAR 2015""
+    },
+    {
+        ""company"": ""NIIT Ltd."",
+        ""designation"": ""Asst. Manager-BHR"",
+        ""start_date"": ""SEPT 2009"",
+        ""end_date"": ""MAR 2013""
+    },
+    {
+        ""company"": ""Executive Development Programme in Labour Law for Managers, XLRI, VIL, 2020"",
+        ""start_date"": ""2020"",
+        ""end_date"": ""2020""
+    },
+    {
+        ""company"": ""PGDM-HR & Marketing, IM&M, 2009"",
+        ""start_date"": ""2009"",
+        ""end_date"": ""2009""
+    },
+    {
+        ""company"": ""Diploma in HR & Marketing, CVS, Delhi University, 2005"",
+        ""start_date"": ""2005"",
+        ""end_date"": ""2005""
+    },
+    {
+        ""company"": ""Bachelor of Business Economics (BBE), CVS, Delhi University, 2005"",
+        ""start_date"": ""2005"",
+        ""end_date"": ""2005""
+    }
+]","'[
+    {
+        ""id"": 1968151,
+        ""designation"": ""AVP HR"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Religare Broking Limited""
+    }
+]",,,2024-01-25 17:22:55.978613
+1383282,"'[
+    {
+        ""company"": ""Lixil India"",
+        ""designation"": ""Lead-Talent Acquisition India, LWT APAC"",
+        ""start_date"": ""NOV 2022"",
+        ""end_date"": ""TILL DATE""
+    },
+    {
+        ""company"": ""Religare Broking Ltd."",
+        ""designation"": ""Associate Vice President-HR"",
+        ""start_date"": ""NOV 2016"",
+        ""end_date"": ""NOV 2022""
+    },
+    {
+        ""company"": ""NIIT Ltd."",
+        ""designation"": ""Manager-Talent Acquisition"",
+        ""start_date"": ""MAR 2015"",
+        ""end_date"": ""MAR 2016""
+    },
+    {
+        ""company"": ""Cairn India Ltd."",
+        ""designation"": ""Sr. Recruiter"",
+        ""start_date"": ""MAR 2013"",
+        ""end_date"": ""MAR 2015""
+    },
+    {
+        ""company"": ""NIIT Ltd."",
+        ""designation"": ""Asst. Manager-BHR"",
+        ""start_date"": ""SEPT 2009"",
+        ""end_date"": ""MAR 2013""
+    },
+    {
+        ""company"": ""Executive Development Programme in Labour Law for Managers, XLRI, VIL, 2020"",
+        ""start_date"": ""2020"",
+        ""end_date"": ""2020""
+    },
+    {
+        ""company"": ""PGDM-HR & Marketing, IM&M, 2009"",
+        ""start_date"": ""2009"",
+        ""end_date"": ""2009""
+    },
+    {
+        ""company"": ""Diploma in HR & Marketing, CVS, Delhi University, 2005"",
+        ""start_date"": ""2005"",
+        ""end_date"": ""2005""
+    },
+    {
+        ""company"": ""Bachelor of Business Economics (BBE), CVS, Delhi University, 2005"",
+        ""start_date"": ""2005"",
+        ""end_date"": ""2005""
+    }
+]","'[
+    {
+        ""id"": 1968151,
+        ""designation"": ""AVP HR"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Religare Broking Limited""
+    }
+]",,,2024-01-25 17:22:58.978822
+1929269,"'[
+    {
+        ""company"": ""American Express"",
+        ""role"": ""Asst. Manager | New Acquisitions | Sales Strategy Team"",
+        ""start_date"": ""Jan 2022"",
+        ""end_date"": ""Present""
+    },
+    {
+        ""company"": ""InMorphis"",
+        ""role"": ""Pre-Sales/Solutions Consultant | B2B SAAS Sales"",
+        ""start_date"": ""Apr 2021"",
+        ""end_date"": ""Oct 2021""
+    },
+    {
+        ""company"": ""Accenture"",
+        ""role"": ""Analyst"",
+        ""start_date"": ""Nov 2016"",
+        ""end_date"": ""Jul 2019""
+    },
+    {
+        ""company"": ""Management Development Institute, (MDI) Gurgaon"",
+        ""role"": ""MBA"",
+        ""start_date"": ""2019"",
+        ""end_date"": ""2021""
+    },
+    {
+        ""company"": ""ESCP Business School, London"",
+        ""role"": ""Masters in Management"",
+        ""start_date"": ""2020"",
+        ""end_date"": ""2020""
+    },
+    {
+        ""company"": ""Maharaja Agrasen Institute of Technology"",
+        ""role"": ""B.Tech"",
+        ""start_date"": ""2012"",
+        ""end_date"": ""2016""
+    }
+]","'[
+    {
+        ""id"": 3800970,
+        ""designation"": ""Assistant Manager"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""American Express""
+    },
+    {
+        ""id"": 3800969,
+        ""designation"": ""Pre-Sales/Solutions Consultant"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2021"",
+        ""toExpMonth"": ""10"",
+        ""toExpYear"": ""2021"",
+        ""company"": ""InMorphis""
+    },
+    {
+        ""id"": 2932183,
+        ""designation"": ""Consultant"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2020"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2020"",
+        ""company"": ""TIIQU, London, UK""
+    },
+    {
+        ""id"": 2932182,
+        ""designation"": ""Marketing Manager"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2020"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2020"",
+        ""company"": ""MasterChef Global, London, UK""
+    },
+    {
+        ""id"": 2853075,
+        ""designation"": ""Application Development Analyst"",
+        ""fromExpMonth"": ""11"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""7"",
+        ""toExpYear"": ""2019"",
+        ""company"": ""Accenture""
+    }
+]",,,2024-01-25 17:33:59.813988
+1849597,"""""","'[
+    {
+        ""id"": 3857436,
+        ""designation"": ""Director, Programs"",
+        ""fromExpMonth"": ""11"",
+        ""fromExpYear"": ""2021"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Language and Learning Foundation""
+    },
+    {
+        ""id"": 2737741,
+        ""designation"": ""Chief Executive Officer"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2015"",
+        ""toExpMonth"": ""1"",
+        ""toExpYear"": ""2021"",
+        ""company"": ""SHANTILAL MUTTHA FOUNDATION""
+    },
+    {
+        ""id"": 2737742,
+        ""designation"": ""Senior Programme Officer"",
+        ""fromExpMonth"": ""11"",
+        ""fromExpYear"": ""2010"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2015"",
+        ""company"": ""AGA KHAN FOUNDATION  INDIA""
+    },
+    {
+        ""id"": 2737743,
+        ""designation"": ""Asia Regional Senior Program Manager"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2007"",
+        ""toExpMonth"": ""11"",
+        ""toExpYear"": ""2010"",
+        ""company"": ""ROOM TO READ, ASIA REGIONAL OFFICE, NEW DELHI, INDIA""
+    },
+    {
+        ""id"": 2737744,
+        ""designation"": ""Programme Manager"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2007"",
+        ""toExpMonth"": ""9"",
+        ""toExpYear"": ""2007"",
+        ""company"": ""SAVE THE CHILDREN, TSUNAMI REHABILITATION PROGRAMME, TAMIL NADU, INDIA""
+    },
+    {
+        ""id"": 2737745,
+        ""designation"": ""Director"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2004"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2007"",
+        ""company"": ""NAANDI FOUNDATION, HYDERABAD""
+    },
+    {
+        ""id"": 2737746,
+        ""designation"": ""Programme coordinator (Western Orissa)"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2002"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2003"",
+        ""company"": ""UNITED NATIONS DEVELOPMENT PROGRAMME (UNDP)""
+    },
+    {
+        ""id"": 2737747,
+        ""designation"": ""Sr.Consultant (Civil Works)"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""1997"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2002"",
+        ""company"": ""Technical Support Group""
+    }
+]",,,2024-01-25 17:35:49.705424
+1401493,"'[
+    {
+        ""company"": ""Ecom Express Pvt Ltd"",
+        ""role"": ""HR Executive"",
+        ""start_date"": ""August 2018"",
+        ""end_date"": ""Till Date""
+    },
+    {
+        ""company"": ""Flip kart India Ltd"",
+        ""role"": ""Team Lead"",
+        ""start_date"": ""April 2014"",
+        ""end_date"": ""March 2018""
+    }
+]","'[
+    {
+        ""id"": 1998834,
+        ""designation"": ""HR executive"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Ecommerce""
+    },
+    {
+        ""id"": 1998833,
+        ""designation"": ""Team leader"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2014"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2018"",
+        ""company"": ""Flipkart.com""
+    },
+    {
+        ""id"": 1998832,
+        ""designation"": ""store manager"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2013"",
+        ""toExpMonth"": ""4"",
+        ""toExpYear"": ""2014"",
+        ""company"": ""Aditya Birla Group""
+    },
+    {
+        ""id"": 1998831,
+        ""designation"": ""store manager"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2011"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2013"",
+        ""company"": ""Mother Dairy""
+    }
+]",,,2024-01-25 18:11:17.565132
+389001,"'[
+    {
+        ""company"": ""McCormick & Company, Inc. [McCormick Foods India Pvt Limited]"",
+        ""role"": ""Director Manufacturing Operations"",
+        ""start_date"": ""Dec 19  present""
+    },
+    {
+        ""company"": ""Anheuser-Bush InBev | SABMiller"",
+        ""role"": ""Associate Director - Plant Manager"",
+        ""start_date"": ""Dec 2019  Jul 2006""
+    },
+    {
+        ""company"": ""Hindustan Coca-Cola Beverages (P) Ltd."",
+        ""role"": ""Manager Quality Assurance"",
+        ""start_date"": ""Jan 2002 to July 2006""
+    },
+    {
+        ""company"": ""Ace Test Laboratories"",
+        ""role"": ""Quality Chemist"",
+        ""start_date"": ""Sep 1998-Jan 2002""
+    }
+]","'[
+    {
+        ""id"": 357364,
+        ""designation"": ""Director Manufacturing & Operations"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2019"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""McCormick India""
+    },
+    {
+        ""id"": 357375,
+        ""designation"": ""Associate Director-Manufacturing Operations"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2019"",
+        ""company"": ""ABInbev""
+    },
+    {
+        ""id"": 357376,
+        ""designation"": ""Senior Manager HMO (Operations Head)"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""ABInbev""
+    },
+    {
+        ""id"": 357377,
+        ""designation"": ""Senior Manager Manufacturing Excellence"",
+        ""fromExpMonth"": ""11"",
+        ""fromExpYear"": ""2014"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2016"",
+        ""company"": ""SABMiller, Hyderabad Unit""
+    },
+    {
+        ""id"": 357378,
+        ""designation"": ""Senior Manager Quality Assurance"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2009"",
+        ""toExpMonth"": ""11"",
+        ""toExpYear"": ""2014"",
+        ""company"": ""SABMiller , Hyderabad Unit""
+    },
+    {
+        ""id"": 357379,
+        ""designation"": ""Manager Quality Assurance/QC"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2007"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2009"",
+        ""company"": ""SABMiller, Kerala Unit""
+    },
+    {
+        ""id"": 357380,
+        ""designation"": ""Sr. Executive Quality Assurance/QC"",
+        ""fromExpMonth"": ""7"",
+        ""fromExpYear"": ""2006"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2007"",
+        ""company"": ""SABMiller""
+    },
+    {
+        ""id"": 2044724,
+        ""designation"": ""Chemist / Executive/Sr. Executive & Team Member - Quality Assurance"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2002"",
+        ""toExpMonth"": ""7"",
+        ""toExpYear"": ""2006"",
+        ""company"": ""Hindustan Coca Cola Beverages (P) Ltd., Kerala-Unit, SWA Bangladesh & Ameenpur Hyderabad""
+    },
+    {
+        ""id"": 2044738,
+        ""designation"": ""Laboratory In-charge"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2000"",
+        ""toExpMonth"": ""1"",
+        ""toExpYear"": ""2002"",
+        ""company"": ""Ace Test Labs & Consultancy, Cochin, Kerala""
+    },
+    {
+        ""id"": 3418299,
+        ""designation"": ""Field Chemist / Quality Control Chemist"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""1998"",
+        ""toExpMonth"": ""10"",
+        ""toExpYear"": ""2000"",
+        ""company"": ""Ion Exchange Speciality Chemicals / Cybele Herbal Pharmaceutical Company, Trichur, Kerala""
+    }
+]",,,2024-01-25 18:20:35.938710
+2406189,"""2018-2020 2014-2018 2010-2014 2010-2010 2009-2010United Phosphorus Ltd.EY (Ernst andYoung)TATA ConsultancyServicesL&T InfotechSENIOR PROJECT MANAGEMENT PROFESSIONALExpertise in SAP, Data Analytics and Project Management with hands-on experience in ramping up projects within time""","'[
+    {
+        ""id"": 3614125,
+        ""designation"": ""Specialist"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""upl""
+    },
+    {
+        ""id"": 3614124,
+        ""designation"": ""Manager"",
+        ""fromExpMonth"": ""7"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""7"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""Ernst & Young""
+    },
+    {
+        ""id"": 3614141,
+        ""designation"": ""senior consultant"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2015"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""TCS""
+    }
+]",,,2024-01-25 18:43:29.069087
+2406189,"""2018-2020 2014-2018 2010-2014 2010-2010 2009-2010United Phosphorus Ltd.EY (Ernst andYoung)TATA ConsultancyServicesL&T InfotechSENIOR PROJECT MANAGEMENT PROFESSIONALExpertise in SAP, Data Analytics and Project Management with hands-on experience in ramping up projects within time""","'[
+    {
+        ""id"": 3614125,
+        ""designation"": ""Specialist"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""upl""
+    },
+    {
+        ""id"": 3614124,
+        ""designation"": ""Manager"",
+        ""fromExpMonth"": ""7"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""7"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""Ernst & Young""
+    },
+    {
+        ""id"": 3614141,
+        ""designation"": ""senior consultant"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2015"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""TCS""
+    }
+]",,,2024-01-25 18:48:48.834708
+1246192,"'[
+    {
+        ""company"": ""Virtusa Systems (Former e-Touch Info Systems)"",
+        ""role"": ""Team Lead - Operations & Delivery"",
+        ""start_date"": ""09/2018"",
+        ""end_date"": ""Present""
+    },
+    {
+        ""company"": ""HGSIS"",
+        ""role"": ""Team Lead - OM1 (Cross Functional)"",
+        ""start_date"": ""05/2017"",
+        ""end_date"": ""05/2018""
+    },
+    {
+        ""company"": ""UHGIS"",
+        ""role"": ""Quality Specialist"",
+        ""start_date"": ""09/2012"",
+        ""end_date"": ""12/2016""
+    },
+    {
+        ""company"": ""Linkquest Telecom Pvt. Ltd"",
+        ""role"": ""Claims Analyst"",
+        ""start_date"": ""02/2012"",
+        ""end_date"": ""08/2012""
+    },
+    {
+        ""company"": ""LIC, NJ Mutual Funds"",
+        ""role"": ""Financial Advisor"",
+        ""start_date"": ""05/2010"",
+        ""end_date"": ""02/2012""
+    },
+    {
+        ""company"": ""e-Touch Systems Pvt. Ltd"",
+        ""role"": ""Extra Mile Award"",
+        ""start_date"": ""04/2019"",
+        ""end_date"": ""06/2019""
+    },
+    {
+        ""company"": ""Unitedhealth Group Information Services"",
+        ""role"": ""Special Expertise Award"",
+        ""start_date"": ""05/2016"",
+        ""end_date"": ""05/2016""
+    },
+    {
+        ""company"": ""Unitedhealth Group Information Services"",
+        ""role"": ""Bright Idea Award"",
+        ""start_date"": ""04/2015"",
+        ""end_date"": ""04/2015""
+    }
+]","'[
+    {
+        ""id"": 1738721,
+        ""designation"": ""Lead Consultant - Operations and Delivery"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""e-Touch a Virtusa company""
+    },
+    {
+        ""id"": 1738726,
+        ""designation"": ""Team Lead - Operations"",
+        ""fromExpMonth"": ""6"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""5"",
+        ""toExpYear"": ""2018"",
+        ""company"": ""Hinduja Group""
+    },
+    {
+        ""id"": 1738727,
+        ""designation"": ""Quality Specialist"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2012"",
+        ""toExpMonth"": ""12"",
+        ""toExpYear"": ""2016"",
+        ""company"": ""United Health Group""
+    },
+    {
+        ""id"": 1738728,
+        ""designation"": ""Claims rep"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2012"",
+        ""toExpMonth"": ""9"",
+        ""toExpYear"": ""2012"",
+        ""company"": ""Link quest Telecom Pvt. Ltd""
+    },
+    {
+        ""id"": 2734025,
+        ""designation"": ""Financial advisor"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2010"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2012"",
+        ""company"": ""LIC""
+    }
+]",,,2024-01-25 18:50:26.750134
