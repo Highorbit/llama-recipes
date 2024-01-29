@@ -1015,3 +1015,168 @@ UserID,LLM Output,User Info from ElasticSearch,flag,username,timestamp
         ""company"": ""LIC""
     }
 ]",,,2024-01-25 18:50:26.750134
+2517706,""" [{'company': 'The StepUp Ventures', 'role': 'Investments Associate (Venture Capital/Incubation)', 'start_date': 'AUG 2023', 'end_date': 'PRESENT'}, {'company': 'Home.LLC', 'role': 'Founders Office & Capital Markets (Private Equity)', 'start_date': 'SEPT 2022', 'end_date': 'AUG 2023 (1 YEAR)}, {'company': 'The Southern Spice Products', 'role': 'Head of Corporate Development (Manufacturing)', 'start_date': 'MAY 2019', 'end_date': 'SEPT 2022 (3.5 YEARS)}]""","'[
+    {
+        ""id"": 4118530,
+        ""designation"": ""Investments & Venture Associate"",
+        ""fromExpMonth"": ""8"",
+        ""fromExpYear"": ""2023"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""The StepUp Ventures""
+    },
+    {
+        ""id"": 3798319,
+        ""designation"": ""Capital Markets & Investor Relations Lead (Raising VC, Debt, and L.P Funds)"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Home.LLC (Private Equity)""
+    },
+    {
+        ""id"": 3798320,
+        ""designation"": ""Head of Business Development, Customer Acquisition and Operations"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2019"",
+        ""toExpMonth"": ""9"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""The Southern Spice Products""
+    }
+]",,,2024-01-29 13:11:00.841742
+1593067,"'[
+    {
+        ""company"": ""IDFC First Bank Ltd"",
+        ""role"": ""Cluster Manager - MBL Unsecured & Secured Loan (Karnataka)"",
+        ""start_date"": ""Sept 2022"",
+        ""end_date"": ""Aug 2023""
+    }
+]","'[
+    {
+        ""id"": 2302450,
+        ""designation"": ""Cluster Manager Karnataka"",
+        ""fromExpMonth"": ""9"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""IDFC""
+    },
+    {
+        ""id"": 4085932,
+        ""designation"": ""Regional sales Manager"",
+        ""fromExpMonth"": ""2"",
+        ""fromExpYear"": ""2020"",
+        ""toExpMonth"": ""9"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""RBL Bank""
+    }
+]",,,2024-01-29 13:34:46.650029
+2226387,"'[
+    {
+        ""company"": ""Arijeet Ghosh"",
+        ""role"": ""Sr. Project Environment Manager"",
+        ""start_date"": ""December, 2018"",
+        ""end_date"": ""Present""
+    },
+    {
+        ""company"": ""Infosys Technology Center INDIA"",
+        ""role"": ""IT Project Manager"",
+        ""start_date"": ""February 2018"",
+        ""end_date"": ""December 2018""
+    },
+    {
+        ""company"": ""Citigroup"",
+        ""role"": ""IT Project and Release Manager"",
+        ""start_date"": ""July 2017"",
+        ""end_date"": ""February 2018""
+    },
+    {
+        ""company"": ""ORACLE Pvt. Ltd. INDIA"",
+        ""role"": ""IT Project and Release Manager"",
+        ""start_date"": ""July 2017"",
+        ""end_date"": ""February 2018""
+    },
+    {
+        ""company"": ""Schlumberger Pvt. Ltd. INDIA"",
+        ""role"": ""Software Consultant"",
+        ""start_date"": ""April 2015"",
+        ""end_date"": ""March 2017""
+    },
+    {
+        ""company"": ""Allscripts Pvt. Ltd. INDIA"",
+        ""role"": ""Software Consultant"",
+        ""start_date"": ""November 2010"",
+        ""end_date"": ""April 2015""
+    },
+    {
+        ""company"": ""VCustomer Pvt. Ltd. INDIA"",
+        ""role"": ""Software Consultant"",
+        ""start_date"": ""November 2007"",
+        ""end_date"": ""October 2010""
+    },
+    {
+        ""company"": ""VCustomer Pvt. Ltd. INDIA"",
+        ""role"": ""Software Consultant"",
+        ""start_date"": ""November 2007"",
+        ""end_date"": ""October 2010""
+    }
+]","'[
+    {
+        ""id"": 3336159,
+        ""designation"": ""Sr. Project Manager"",
+        ""fromExpMonth"": ""12"",
+        ""fromExpYear"": ""2018"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Barclays Technology Center""
+    }
+]",,,2024-01-29 16:23:50.501325
+151960,"""""","'[
+    {
+        ""id"": 685535,
+        ""designation"": ""Delivery Head"",
+        ""fromExpMonth"": ""3"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""HCL Technologies""
+    },
+    {
+        ""id"": 685536,
+        ""designation"": ""Delivery Head/AVP- S/w Delivery Services"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2016"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2017"",
+        ""company"": ""Nelito Systems Ltd.""
+    },
+    {
+        ""id"": 1014299,
+        ""designation"": ""Delivery Project Executive/Portfolio Manager"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2011"",
+        ""toExpMonth"": ""5"",
+        ""toExpYear"": ""2016"",
+        ""company"": ""IBM India(GBS)""
+    },
+    {
+        ""id"": 1402856,
+        ""designation"": ""Projects & Program Manager"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2006"",
+        ""toExpMonth"": ""3"",
+        ""toExpYear"": ""2011"",
+        ""company"": ""Tech Mahindra""
+    }
+]",,,2024-01-29 16:29:28.962496
+2185783,""" [{'company': 'HDFC Life Insurance', 'role': 'Head-Talent Management', 'start_date': 'July 22', 'end_date': 'Current'}, {'company': 'PeoplePro', 'role': 'Sole Proprietor', 'start_date': 'November 16', 'end_date': 'June 17'}, {'company': 'Kotak Life Insurance', 'role': 'AVP-HR-East/North-east Kolkata', 'start_date': 'November 13', 'end_date': 'May 16'}, {'company': 'Asian Paints', 'role': 'Senior HR Manager-Rohtak plant. Haryana', 'start_date': 'June 10', 'end_date': 'November 13'}, {'company': 'Alcatel-Lucent', 'role': 'C&B Manager', 'start_date': 'May 09', 'end_date': 'August 10'}, {'company': 'Hewitt Associates', 'role': 'Consultant', 'start_date': 'April 07', 'end_date': 'May 09'}, {'company': 'Genpact (erstwhile GECIS)', 'role': 'Business Analyst', 'start_date': 'June 2004', 'end_date': 'April 2005'}] nobody""","'[
+    {
+        ""id"": 3272096,
+        ""designation"": ""AVP HR"",
+        ""fromExpMonth"": ""7"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""HDFC Life""
+    }
+]",,,2024-01-29 17:03:01.104561

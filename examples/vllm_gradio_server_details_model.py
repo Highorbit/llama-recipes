@@ -32,7 +32,11 @@ def convert_to_json(input_string):
 
 def make_eval_prompt(raw_text):
     
-    
+    '''
+    this function takes an input resume text and returns a prompt to 
+    be input into an LLM
+    '''
+
     work_prompt = f'''
     You are an accurate agent working for a job platform. You will be given the raw 
     unstructured text of a user's resume, and the task is to extract only the following details about the 
