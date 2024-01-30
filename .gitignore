@@ -4,6 +4,7 @@ __pycache__
 examples/custom_data/
 examples/tmp
 env/
+test_env/
 examples/configs/
 *.csv
 *.pkl
