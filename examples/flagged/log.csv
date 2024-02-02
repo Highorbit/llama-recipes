@@ -1180,3 +1180,144 @@ UserID,LLM Output,User Info from ElasticSearch,flag,username,timestamp
         ""company"": ""HDFC Life""
     }
 ]",,,2024-01-29 17:03:01.104561
+1868837,""" [{'company': 'Aditi Tech Consulting Pvt Ltd.', 'role': 'Specialist - People and Culture', 'start_date': 'June 22', 'end_date': 'Aug 23'}] nobody""","'[
+    {
+        ""id"": 2786866,
+        ""designation"": ""Specialist - People and Culture"",
+        ""fromExpMonth"": ""6"",
+        ""fromExpYear"": ""2022"",
+        ""toExpMonth"": ""8"",
+        ""toExpYear"": ""2023"",
+        ""company"": ""Aditi Tech Consulting Pvt Ltd""
+    },
+    {
+        ""id"": 4062764,
+        ""designation"": ""HR Executive"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2019"",
+        ""toExpMonth"": ""2"",
+        ""toExpYear"": ""2022"",
+        ""company"": ""Slay Coffee""
+    }
+]",,,2024-01-30 16:03:51.003282
+793082,"'[
+    {
+        ""company"": ""SSIOM INGO"",
+        ""designation"": ""MEMBER"",
+        ""start_date"": ""2022"",
+        ""end_date"": ""2023""
+    },
+    {
+        ""company"": ""SSIOM INGO"",
+        ""designation"": ""MEMBER"",
+        ""start_date"": ""2023"",
+        ""end_date"": ""2024""
+    },
+    {
+        ""company"": ""SSIOM INGO"",
+        ""designation"": ""MEMBER"",
+        ""start_date"": ""2024"",
+        ""end_date"": ""2025""
+    }
+]","'[
+    {
+        ""id"": 1164341,
+        ""designation"": ""DR"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2008"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""SSIO INGO""
+    }
+]",,,2024-01-30 17:17:19.987982
+88195,"""""","'[
+    {
+        ""id"": 369344,
+        ""designation"": ""Associate Manager - Oracle Retail"",
+        ""fromExpMonth"": ""6"",
+        ""fromExpYear"": ""2015"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Accenture Solutions""
+    },
+    {
+        ""id"": 369343,
+        ""designation"": ""Sr Business Consultant"",
+        ""fromExpMonth"": ""6"",
+        ""fromExpYear"": ""2013"",
+        ""toExpMonth"": ""6"",
+        ""toExpYear"": ""2015"",
+        ""company"": ""JDA Software""
+    },
+    {
+        ""id"": 369345,
+        ""designation"": ""Consultant"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2012"",
+        ""toExpMonth"": ""6"",
+        ""toExpYear"": ""2013"",
+        ""company"": ""Infosys""
+    },
+    {
+        ""id"": 369346,
+        ""designation"": ""Techno-Functional Consultant"",
+        ""fromExpMonth"": ""4"",
+        ""fromExpYear"": ""2010"",
+        ""toExpMonth"": ""10"",
+        ""toExpYear"": ""2012"",
+        ""company"": ""SkillNet Solution""
+    },
+    {
+        ""id"": 1749176,
+        ""designation"": ""Associate Systems Engineer"",
+        ""fromExpMonth"": ""10"",
+        ""fromExpYear"": ""2005"",
+        ""toExpMonth"": ""6"",
+        ""toExpYear"": ""2008"",
+        ""company"": ""TCS""
+    }
+]",,,2024-01-31 15:59:28.140100
+604137,"'[
+    {
+        ""company"": ""Zephyr Limited"",
+        ""role"": ""HR Executive"",
+        ""start_date"": ""Nov 2015"",
+        ""end_date"": ""April 2017"",
+        ""description"": ""Coordination with diferent teams and understanding their requirements, defning job positions. Resourcing, screening and short listing resumes through various job portals or else internal reference, head hunting. Advertising vacancies, screening and shortlisting resumes. Conducting telephonic and personal interviews in coordination with department heads.""
+    },
+    {
+        ""company"": ""Global ITES Pvt. Ltd."",
+        ""role"": ""HR Manager"",
+        ""start_date"": ""Oct, 2014"",
+        ""end_date"": ""Oct, 2015"",
+        ""description"": ""Searching, screening, shortlisting & scheduling interviews as per the requisition from diferent department heads. Coordinating with the candidate & the technical head during the interview. Conducting the fnal round of HR interview. Negotiating the salary & joining period with the selected candidates.""
+    },
+    {
+        ""company"": ""Job Herd"",
+        ""role"": ""HR Recruiter"",
+        ""start_date"": ""SEP,2013"",
+        ""end_date"": ""SEP ,2014"",
+        ""description"": ""Worked on job portals like Monster.com, Naukri.com and Timesjob.com. Client interface. Account Management. Sourcing candidates and closing positions. Worked on IT/Non IT Domains (Mainly non IT Domain).""
+    }
+]","'[
+    {
+        ""id"": 633601,
+        ""designation"": ""Sr. HR Executive (Regional HR - North)"",
+        ""fromExpMonth"": ""5"",
+        ""fromExpYear"": ""2017"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Quikr India Pvt Ltd.""
+    }
+]",,,2024-01-31 16:01:55.635300
+460395,""" [{'company': 'Freedom from Diabetes', 'role': 'Asst. Digital Marketing Manager', 'start_date': 'Jan 2021', 'end_date': 'Present (2.9 years)'}, {'company': 'Indycult', 'role': 'Founder', 'start_date': 'April 2018', 'end_date': 'Dec 2020 (2.8 years')'}, {'company': 'Regalix', 'role': 'Business Analyst(GoogleVendor)', 'start_date': 'June 2016', 'end_date': 'April 2018 (2+ Years)'}, {'company': 'FuGenX', 'role': 'Senior Business Development Executive', 'start_date': 'April 2014', 'end_date': 'May 2016 (2+ Years)'}, {'company': 'Nielsen India', 'role': 'MBA Intern', 'start_date': 'April 2013', 'end_date': 'July 2013 (3 Months)'}],     'company': 'White Waters', 'role': 'Assistant Manager', 'start_date': 'April 2023', 'end_date': 'Present (1 year)'}""","'[
+    {
+        ""id"": 494172,
+        ""designation"": ""Assistant Marketing Manager"",
+        ""fromExpMonth"": ""1"",
+        ""fromExpYear"": ""2021"",
+        ""toExpMonth"": ""0"",
+        ""toExpYear"": ""0"",
+        ""company"": ""Freedom form Diabetes""
+    }
+]",,,2024-01-31 17:33:41.170608
