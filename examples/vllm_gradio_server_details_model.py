@@ -6,7 +6,6 @@ import gradio as gr
 from user_info import get_user_info
 import ast, html, re
 
-
 sampling_params = SamplingParams(temperature=0, max_tokens=4096)
 llm = LLM(model="lakshay/work-details")
 
@@ -72,8 +71,6 @@ def parse_user_work_ex(info_json):
         return work_ex
             
     return work_ex
-
-
 
 def get_response_from_model(user_id):
 
