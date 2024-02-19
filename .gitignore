@@ -4,6 +4,7 @@ __pycache__
 examples/custom_data/
 examples/tmp
 env/
+examples/relevant_jobs_classification/data/
 test_env/
 examples/configs/
 *.csv

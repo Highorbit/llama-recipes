@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 import requests
 import re
-from tqdm import tqdm
-
+ 
 def clean_space(text):
     return " ".join(re.split("\s+", text, flags=re.UNICODE))
 
@@ -25,24 +24,6 @@ def get_user_info(user_id):
     
     return raw_data
 
-def get_user_data_search_embed(user_id_list):
-    
-    '''
-    This function combines all the functions for fetching and processing 
-    user data from elastic search
-    '''
-
-
-    sub_json = fetch_data_es(user_id_list)
-    raw_data = construct_user_data_search_embed(sub_json)
-
-    res_df = pd.DataFrame.from_dict(raw_data, orient='index').T
-    result_df = res_df.astype(str).replace("None", " ")
-    
-    result_df['resume'] = result_df['resume'].apply(remove_extra_spaces)
-
-    return result_df
-
 def fetch_data_es(user_id_list):
     
     """
@@ -58,7 +39,7 @@ def fetch_data_es(user_id_list):
 
     res = []
 
-    for uid in tqdm(user_id_list):
+    for uid in user_id_list:
 
 
         payload = {
@@ -91,31 +72,25 @@ def construct_user_data_search_embed(user_json):
     
     user_dict = {
         'id' : [],
+        'keywords':[],
         'resume' : [],
-        'keywords': [],
-       'current_designation' : [],
+        'current_designation' : [],
         'user_experience':[],
         'professional_info':[],
         'education_info':[]    
-    
     }
 
-    for s in tqdm(user_json):
+    for s in user_json:
 
         try:
             source = s[0]
 
             user_dict['id'].append(source['id'])
-
-            skill_list = [str(skill['name']).replace(" ","_") for skill in source['skillSet']]
-            user_dict['keywords'].append(" ".join(skill_list))
-            
-            user_dict['user_experience'].append(source['expYear'])
-            
             user_dict['resume'].append(source['resumeText'])
             user_dict['current_designation'].append(source['currentDesignation'])
+            user_dict['user_experience'].append(source['expYear'])
             user_dict['professional_info'].append(source['professionalInfo'])
-            user_dict['education_info'].append(source['educationInfo'])  
+            user_dict['education_info'].append(source['educationInfo'])            
 
         except Exception as e:
             continue
