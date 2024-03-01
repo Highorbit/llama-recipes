@@ -51,7 +51,7 @@ def fetch_job_title(job_id):
 
     title = job_data[0]['title']
     jd = job_data[0]['introText']
-    jd = html.unescape(jd)
+    # jd = html.unescape(jd)
 
     return title + '\n' + jd
 
@@ -114,7 +114,7 @@ def run_predictions_for_job(job_id):
         try:
             es_output = get_user_info(userid)
             rt = es_output['resume'][0]
-            rt = html.unescape(rt)
+            # rt = html.unescape(rt)
         except Exception as e:
             print(f'Error while getting resume text for user_id {userid} is {e}\n')
             continue
@@ -158,20 +158,36 @@ def run_predictions_for_job(job_id):
 
     fd = fd[['id','current_designation','user_experience','real_values','reason','user_profile']]
 
-    return fd.to_html(escape=False)
+    return fd
 
 
-iface = gr.Interface(
-    fn=run_predictions_for_job,
-    inputs=[gr.Textbox(label="JOB ID")],
-    outputs=[gr.HTML(label="RESULTS")]
-)
+# iface = gr.Interface(
+#     fn=run_predictions_for_job,
+#     inputs=[gr.Textbox(label="JOB ID")],
+#     outputs=[gr.HTML(label="RESULTS")]
+# )
+with gr.Blocks() as demo:
+
+    gr.Markdown(
+
+   )
+
+    inp = gr.Number(label="JOB ID")
+
+    out = gr.DataFrame(label='output',wrap=True,
+            datatype=["number", "markdown","markdown","markdown", "html","markdown"],
+            interactive=True,)
+
+    # inp.change(run_predictions_for_job, inp, out)
+    btn = gr.Button("Run")
+    btn.click(fn=run_predictions_for_job, inputs=inp, outputs=out)
+ 
+
+demo.launch('0.0.0.0', share=True)
+
+# iface.launch('0.0.0.0', share=True)
 
 
-iface.launch('0.0.0.0', share=True)
-
-# if __name__ == "__main__":
-#     demo.launch(share=True)
 
 
 
