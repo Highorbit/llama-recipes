@@ -3,6 +3,7 @@ __pycache__
 .ipynb_checkpoints
 examples/custom_data/
 examples/tmp
+examples/sql_queries/data
 env/
 examples/relevant_jobs_classification/data/
 test_env/
